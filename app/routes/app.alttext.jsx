@@ -117,7 +117,7 @@ export const action = async ({ request }) => {
       allEnvKeys: Object.keys(process.env).filter(key => key.startsWith('AZURE')),
     });
   
-    // Handle AI Alt Text Generation
+    // Handle AI Alt Text Generationd
     if (actionType === "generate") {
       // Check if required environment variables exist
       if (!process.env.AZURE_OAI_ENDPOINT || !process.env.AZURE_OAI_KEY) {
