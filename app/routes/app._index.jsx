@@ -45,7 +45,7 @@ import {
                       from search results.
                     </Text>
                   </Box>
-                  <Link to="/app/metadata-editor" style={{ textDecoration: 'none' }}>
+                  <Link to="/app/metadescription" style={{ textDecoration: 'none' }}>
                     <Button variant="primary" fullWidth>
                       Optimize Meta Tags
                     </Button>
@@ -66,7 +66,7 @@ import {
                       effective results.
                     </Text>
                   </Box>
-                  <Link to="/app/image-alt-text-editor" style={{ textDecoration: 'none' }}>
+                  <Link to="/app/alttext" style={{ textDecoration: 'none' }}>
                     <Button variant="primary" fullWidth>
                       Optimize Images
                     </Button>
