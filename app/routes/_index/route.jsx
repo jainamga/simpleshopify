@@ -19,43 +19,34 @@ export default function App() {
   return (
     <div className={styles.index}>
       <div className={styles.content}>
-        <h1 className={styles.heading}>Supercharge Your Store's SEO</h1>
+        <h1 className={styles.heading}>A short heading about [your app]</h1>
         <p className={styles.text}>
-          Bulk-edit product meta titles, descriptions, and image alt text in
-          minutes, not hours. Boost your search rankings with powerful AI-driven
-          tools.
+          A tagline about [your app] that describes your value proposition.
         </p>
         {showForm && (
           <Form className={styles.form} method="post" action="/auth/login">
             <label className={styles.label}>
               <span>Shop domain</span>
-              <input
-                className={styles.input}
-                type="text"
-                name="shop"
-                placeholder="your-shop-name.myshopify.com"
-              />
+              <input className={styles.input} type="text" name="shop" />
+              <span>e.g: my-shop-domain.myshopify.com</span>
             </label>
             <button className={styles.button} type="submit">
-              Install & Log In
+              Log in
             </button>
           </Form>
         )}
         <ul className={styles.list}>
           <li>
-            <strong>Bulk Metadata Editor</strong>. Quickly edit meta titles and
-            descriptions for hundreds of products on a single page. Stay within
-            SEO best practices with built-in character counters.
+            <strong>Product feature</strong>. Some detail about your feature and
+            its benefit to your customer.
           </li>
           <li>
-            <strong>AI-Powered Alt Text Generation</strong>. Instantly generate
-            SEO-optimized alt text for your product images using AI. Improve
-            accessibility and capture more traffic from image searches.
+            <strong>Product feature</strong>. Some detail about your feature and
+            its benefit to your customer.
           </li>
           <li>
-            <strong>Efficient Workflow</strong>. Manage all your critical
-            on-page SEO from one intuitive interface. See product images, edit
-            text, and save changes without ever leaving the page.
+            <strong>Product feature</strong>. Some detail about your feature and
+            its benefit to your customer.
           </li>
         </ul>
       </div>
