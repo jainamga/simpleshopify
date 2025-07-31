@@ -24,6 +24,9 @@ export default function App() {
         </Link>
         <Link to="/app/additional">Additchional page</Link>
         <Link to="/app/alttext">Ahltrhws Text</Link>
+        <Link to="/app/metadescription">Meta Tags</Link>
+        <Link to="/app/welcome">Welcome</Link>
+
       </NavMenu>
       <Outlet />
     </AppProvider>

@@ -3,7 +3,7 @@
 client_id = "9860c52ddc92ab389ca663832ac92d4e"
 name = "simple"
 handle = "simple-29"
-application_url = "https://simple-shopify-app.azurewebsites.net"
+application_url = "https://ipod-brazilian-km-watt.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,11 +26,7 @@ api_version = "2025-07"
 scopes = "write_products,read_products"
 
 [auth]
-redirect_urls = [
-  "https://simple-shopify-app.azurewebsites.net/auth/callback", 
-  "https://simple-shopify-app.azurewebsites.net/auth/shopify/callback", 
-  "https://simple-shopify-app.azurewebsites.net/api/auth/callback"
-]
+redirect_urls = ["https://ipod-brazilian-km-watt.trycloudflare.com/auth/callback", "https://ipod-brazilian-km-watt.trycloudflare.com/auth/shopify/callback", "https://ipod-brazilian-km-watt.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
