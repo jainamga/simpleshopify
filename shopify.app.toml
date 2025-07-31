@@ -3,7 +3,7 @@
 client_id = "9860c52ddc92ab389ca663832ac92d4e"
 name = "simple"
 handle = "simple-29"
-application_url = "https://ipod-brazilian-km-watt.trycloudflare.com"
+application_url = "https://dns-monte-adopted-e.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products,read_products"
 
 [auth]
-redirect_urls = ["https://ipod-brazilian-km-watt.trycloudflare.com/auth/callback", "https://ipod-brazilian-km-watt.trycloudflare.com/auth/shopify/callback", "https://ipod-brazilian-km-watt.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://dns-monte-adopted-e.trycloudflare.com/auth/callback", "https://dns-monte-adopted-e.trycloudflare.com/auth/shopify/callback", "https://dns-monte-adopted-e.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
