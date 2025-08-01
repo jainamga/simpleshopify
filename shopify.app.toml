@@ -3,7 +3,7 @@
 client_id = "9860c52ddc92ab389ca663832ac92d4e"
 name = "simple"
 handle = "simple-29"
-application_url = "https://simple-shopify-app.azurewebsites.net"
+application_url = "https://simple-shopify-app-v2.azurewebsites.net"
 embedded = true
 
 [build]
