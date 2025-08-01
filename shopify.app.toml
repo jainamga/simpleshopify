@@ -3,12 +3,12 @@
 client_id = "9860c52ddc92ab389ca663832ac92d4e"
 name = "simple"
 handle = "simple-29"
-application_url = "https://don-feb-stuffed-travels.trycloudflare.com"
+application_url = "https://simple-shopify-app-v2.azurewebsites.net"
 embedded = true
 
 [build]
 include_config_on_deploy = true
-automatically_update_urls_on_dev = true
+automatically_update_urls_on_dev = false
 
 [webhooks]
 api_version = "2025-07"
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products,read_products"
 
 [auth]
-redirect_urls = ["https://don-feb-stuffed-travels.trycloudflare.com/auth/callback", "https://don-feb-stuffed-travels.trycloudflare.com/auth/shopify/callback", "https://don-feb-stuffed-travels.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://engines-sorts-hiv-gentle.trycloudflare.com/auth/callback", "https://engines-sorts-hiv-gentle.trycloudflare.com/auth/shopify/callback", "https://engines-sorts-hiv-gentle.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
