@@ -11,22 +11,30 @@ include_config_on_deploy = true
 automatically_update_urls_on_dev = false
 
 [webhooks]
-api_version = "2025-07"
+api_version = "2024-10"
 
   [[webhooks.subscriptions]]
   topics = [ "app/uninstalled" ]
   uri = "/webhooks/app/uninstalled"
 
   [[webhooks.subscriptions]]
-  topics = [ "app/scopes_update" ]
-  uri = "/webhooks/app/scopes_update"
+  topics = [ "customers/data_request" ]
+  uri = "/webhooks/customers/data_request"
+
+  [[webhooks.subscriptions]]
+  topics = [ "customers/redact" ]
+  uri = "/webhooks/customers/redact"
+
+  [[webhooks.subscriptions]]
+  topics = [ "shop/redact" ]
+  uri = "/webhooks/shop/redact"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products,read_products"
 
 [auth]
-redirect_urls = ["https://engines-sorts-hiv-gentle.trycloudflare.com/auth/callback", "https://engines-sorts-hiv-gentle.trycloudflare.com/auth/shopify/callback", "https://engines-sorts-hiv-gentle.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://simple-shopify-app.azurewebsites.net/auth/callback", "https://simple-shopify-app.azurewebsites.net/auth/shopify/callback", "https://simple-shopify-app.azurewebsites.net/api/auth/callback"]
 
 [pos]
 embedded = false
