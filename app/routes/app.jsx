@@ -23,7 +23,7 @@ export default function App() {
           Home
         </Link>
         <Link to="/app/additional">Additchional page</Link>
-        <Link to="/app/alttext">Ahltrhwds Text</Link>
+        <Link to="/app/alttext">Ahltrhswds Text</Link>
         <Link to="/app/metadescription">Meta Tags</Link>
         <Link to="/app/welcome">Welcome</Link>
 
